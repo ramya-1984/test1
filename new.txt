@@ -8,4 +8,6 @@ echo "adding 2 no's a and b:"$result
  or
 result = expr $a - $b
 echo "subtracting a nad b:"$result
-
+or 
+result = expr $a \* $b
+echo "multiplication of a and b":$result
