@@ -8,4 +8,8 @@ echo "adding 2 no's a and b:"$result
  or
 result = expr $a - $b
 echo "subtracting a nad b:"$result
+ and 
+for decimal
+result = echo $a + $b
+
 
