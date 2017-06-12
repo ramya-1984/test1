@@ -3,19 +3,7 @@ echo "enter a"
 read a
 echo "enter b"
 read b
-result= expr $a + $b
-echo "adding 2 no's a and b:"$result
- or
-result = expr $a - $b
-echo "subtracting a nad b:"$result
-<<<<<<< HEAD
- and 
-for decimal
-result = echo $a + $b
-
-
-=======
-or 
-result = expr $a \* $b
-echo "multiplication of a and b":$result
->>>>>>> throw
+echo "adding numbers:"
+expr $a +$b
+echo "subtracting numbers:"
+expr $a -$b
